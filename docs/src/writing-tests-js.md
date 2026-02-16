@@ -10,11 +10,11 @@ Playwright automatically waits for [actionability](./actionability.md) checks to
 
 **You will learn**
 
-- [How to write the first test](/writing-tests.md#first-test)
-- [How to perform actions](/writing-tests.md#actions)
-- [How to use assertions](/writing-tests.md#assertions)
-- [How tests run in isolation](/writing-tests.md#test-isolation)
-- [How to use test hooks](/writing-tests.md#using-test-hooks)
+- [How to write the first test](./writing-tests#first-test)
+- [How to perform actions](./writing-tests#actions)
+- [How to use assertions](./writing-tests#assertions)
+- [How tests run in isolation](./writing-tests#test-isolation)
+- [How to use test hooks](./writing-tests#using-test-hooks)
 
 ## First test
 
