@@ -182,7 +182,9 @@ Instead, create a *fingerprint* of the violation(s) in question that contains on
 // This is less fragile than snapshotting the entire violations array.
 expect(violationFingerprints(accessibilityScanResults)).toMatchSnapshot();
 
-// my-test-utils.js
+// Create this helper function in a shared utilities file (e.g., my-test-utils.js)
+// Then import it: import { violationFingerprints } from './my-test-utils';
+
 function violationFingerprints(accessibilityScanResults) {
   const violationFingerprints = accessibilityScanResults.violations.map(violation => ({
     rule: violation.id,
